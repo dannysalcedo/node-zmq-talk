@@ -1,6 +1,6 @@
 'use strict';
 const
-  zmq = require('zmq'),
+  zmq = require('zeromq'),
   pusher = zmq.socket('push');
 
 let jobCount = 0;

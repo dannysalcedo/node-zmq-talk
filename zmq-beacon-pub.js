@@ -1,6 +1,6 @@
 'use strict';
 const
-  zmq = require('zmq'),
+  zmq = require('zeromq'),
   publisher = zmq.socket('pub');
 
 // Send a beacon message to any subscribers.

@@ -1,7 +1,7 @@
 'use strict';
 const
   cluster = require('cluster'),
-  zmq = require('zmq'),
+  zmq = require('zeromq'),
 
   workerCount = 3,
 

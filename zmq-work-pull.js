@@ -1,6 +1,6 @@
 "use strict";
 const
-  zmq = require('zmq'),
+  zmq = require('zeromq'),
   puller = zmq.socket('pull');
 
 // Perform work as it comes in.

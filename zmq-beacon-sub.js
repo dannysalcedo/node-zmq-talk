@@ -1,6 +1,6 @@
 "use strict";
 const
-  zmq = require('zmq'),
+  zmq = require('zeromq'),
   subscriber = zmq.socket('sub');
 
 // Subscribe to all messages.

@@ -1,6 +1,6 @@
 'use strict';
 const
-  zmq = require('zmq'),
+  zmq = require('zeromq'),
   requester = zmq.socket('req');
 
 requester.on("message", function(data) {
